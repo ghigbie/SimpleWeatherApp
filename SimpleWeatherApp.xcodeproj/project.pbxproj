@@ -16,6 +16,10 @@
 		DB1428C725BA16190084BE5C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB1428C525BA16190084BE5C /* LaunchScreen.storyboard */; };
 		DB1428D225BA16190084BE5C /* SimpleWeatherAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1428D125BA16190084BE5C /* SimpleWeatherAppTests.swift */; };
 		DB1428DD25BA16190084BE5C /* SimpleWeatherAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1428DC25BA16190084BE5C /* SimpleWeatherAppUITests.swift */; };
+		DB1428EF25BA211A0084BE5C /* WeatherDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1428EE25BA211A0084BE5C /* WeatherDisplay.swift */; };
+		DB1428F725BA280A0084BE5C /* MiniWeatherDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1428F625BA280A0084BE5C /* MiniWeatherDisplay.swift */; };
+		DB1428FC25BA31CE0084BE5C /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1428FB25BA31CE0084BE5C /* Location.swift */; };
+		DB14290125BA32240084BE5C /* MiniWeatherRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB14290025BA32240084BE5C /* MiniWeatherRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,10 @@
 		DB1428D825BA16190084BE5C /* SimpleWeatherAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleWeatherAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB1428DC25BA16190084BE5C /* SimpleWeatherAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleWeatherAppUITests.swift; sourceTree = "<group>"; };
 		DB1428DE25BA16190084BE5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB1428EE25BA211A0084BE5C /* WeatherDisplay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherDisplay.swift; sourceTree = "<group>"; };
+		DB1428F625BA280A0084BE5C /* MiniWeatherDisplay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniWeatherDisplay.swift; sourceTree = "<group>"; };
+		DB1428FB25BA31CE0084BE5C /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		DB14290025BA32240084BE5C /* MiniWeatherRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniWeatherRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +109,7 @@
 		DB1428B625BA16160084BE5C /* SimpleWeatherApp */ = {
 			isa = PBXGroup;
 			children = (
+				DB1428ED25BA207C0084BE5C /* views */,
 				DB1428B725BA16160084BE5C /* AppDelegate.swift */,
 				DB1428B925BA16160084BE5C /* SceneDelegate.swift */,
 				DB1428BB25BA16160084BE5C /* ContentView.swift */,
@@ -137,6 +146,17 @@
 				DB1428DE25BA16190084BE5C /* Info.plist */,
 			);
 			path = SimpleWeatherAppUITests;
+			sourceTree = "<group>";
+		};
+		DB1428ED25BA207C0084BE5C /* views */ = {
+			isa = PBXGroup;
+			children = (
+				DB1428EE25BA211A0084BE5C /* WeatherDisplay.swift */,
+				DB1428F625BA280A0084BE5C /* MiniWeatherDisplay.swift */,
+				DB1428FB25BA31CE0084BE5C /* Location.swift */,
+				DB14290025BA32240084BE5C /* MiniWeatherRow.swift */,
+			);
+			path = views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -271,8 +291,12 @@
 			files = (
 				DB1428BF25BA16160084BE5C /* SimpleWeatherApp.xcdatamodeld in Sources */,
 				DB1428B825BA16160084BE5C /* AppDelegate.swift in Sources */,
+				DB1428F725BA280A0084BE5C /* MiniWeatherDisplay.swift in Sources */,
 				DB1428BA25BA16160084BE5C /* SceneDelegate.swift in Sources */,
+				DB14290125BA32240084BE5C /* MiniWeatherRow.swift in Sources */,
 				DB1428BC25BA16160084BE5C /* ContentView.swift in Sources */,
+				DB1428EF25BA211A0084BE5C /* WeatherDisplay.swift in Sources */,
+				DB1428FC25BA31CE0084BE5C /* Location.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
