@@ -20,6 +20,8 @@
 		DB1428F725BA280A0084BE5C /* MiniWeatherDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1428F625BA280A0084BE5C /* MiniWeatherDisplay.swift */; };
 		DB1428FC25BA31CE0084BE5C /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1428FB25BA31CE0084BE5C /* Location.swift */; };
 		DB14290125BA32240084BE5C /* MiniWeatherRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB14290025BA32240084BE5C /* MiniWeatherRow.swift */; };
+		DB14290625BA7DA90084BE5C /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB14290525BA7DA90084BE5C /* BackgroundView.swift */; };
+		DB14291325BA7F5F0084BE5C /* WeatherButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB14291225BA7F5F0084BE5C /* WeatherButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +61,8 @@
 		DB1428F625BA280A0084BE5C /* MiniWeatherDisplay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniWeatherDisplay.swift; sourceTree = "<group>"; };
 		DB1428FB25BA31CE0084BE5C /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 		DB14290025BA32240084BE5C /* MiniWeatherRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniWeatherRow.swift; sourceTree = "<group>"; };
+		DB14290525BA7DA90084BE5C /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
+		DB14291225BA7F5F0084BE5C /* WeatherButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,6 +159,8 @@
 				DB1428F625BA280A0084BE5C /* MiniWeatherDisplay.swift */,
 				DB1428FB25BA31CE0084BE5C /* Location.swift */,
 				DB14290025BA32240084BE5C /* MiniWeatherRow.swift */,
+				DB14290525BA7DA90084BE5C /* BackgroundView.swift */,
+				DB14291225BA7F5F0084BE5C /* WeatherButton.swift */,
 			);
 			path = views;
 			sourceTree = "<group>";
@@ -289,7 +295,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB14290625BA7DA90084BE5C /* BackgroundView.swift in Sources */,
 				DB1428BF25BA16160084BE5C /* SimpleWeatherApp.xcdatamodeld in Sources */,
+				DB14291325BA7F5F0084BE5C /* WeatherButton.swift in Sources */,
 				DB1428B825BA16160084BE5C /* AppDelegate.swift in Sources */,
 				DB1428F725BA280A0084BE5C /* MiniWeatherDisplay.swift in Sources */,
 				DB1428BA25BA16160084BE5C /* SceneDelegate.swift in Sources */,

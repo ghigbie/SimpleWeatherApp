@@ -8,16 +8,28 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var isNight = false
+    
     var body: some View {
         ZStack {
-            LinearGradient(gradient: Gradient(colors: [.blue, .white]),
-                           startPoint: .topLeading,
-                           endPoint: .bottomTrailing)
-                .edgesIgnoringSafeArea(.all)
+            BackgroundView(
+                topColor: isNight ? .black :.blue,
+                bottomColor: isNight ? .gray : Color("lightblue"))
             VStack{
                 Location(location: "Toas, NM")
-                WeatherDisplay()
+                WeatherDisplay(temp: 76, image: "cloud.sun.bolt.fill")
+                    .padding(.bottom, 46)
                 MiniWeatherRow()
+                Spacer()
+                Button{
+                    
+                } label: {
+                    WeatherButton(
+                        title: "Change Day Time",
+                        textColor: .blue,
+                        backgroundColor: .white
+                    )
+                }
                 Spacer()
             }
 
@@ -30,3 +42,4 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
+
